@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<p>sfdsdf答复</p>
+</head>
+<body>
+	Form 包裹 action：#
+	input 文本框、单选框、多选框、按钮、
+	<!-- 普通按钮 -->
+	<input type="Button" value="按钮">
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01TableDemo</title>
+</head>
+<body>
+<table border="1">
+<thead>
+	<tr>
+		<td>类目</td>
+		<td>参数A</td>
+		<td>参数B</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+	<!-- 一个单元格占用两行金星合并 -->
+		<td rowspan="2">基本参数</td>
+		<!-- 将一行中的一个单元格 占用两个列显示 -->
+		<td colspan="2">奥德赛</td>
+		<!-- <td>松岛枫</td> -->
+	</tr>
+	<tr>
+		<!-- <td>基本参数</td> -->
+		<td>奥德赛</td>
+		<td>松岛枫</td>
+	</tr>
+	<tr>
+		<td>基本参数3</td>
+		<td>奥德赛3</td>
+		<td>松岛枫3</td>
+	</tr>
+	</tbody>
+</table>
+	
+</body>
+</html>

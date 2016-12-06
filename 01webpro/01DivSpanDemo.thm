@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01Div和soan的Demo</title>
+</head>
+<body>
+<!-- 块标签 -->
+<div>
+	我是一个div <br> 我還是一个Div
+</div>
+<div>
+	我是一个div
+</div>
+	我是一个div
+<div>
+	
+</div>
+<br>
+<!-- 行标签 -->
+<span>我是一个span标签1</span>
+<span>我是一个span标签2</span>
+<span>我是一个span标签3</span>
+	
+</body>
+</html>

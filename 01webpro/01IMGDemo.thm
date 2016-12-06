@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01图片Demo</title>
+</head>
+<body>
+<!-- <img src="图片地址" alt="如果图片不显示" title="鼠标放到图片上显示的提示"> -->
+<img src="imgs/demo1.jpg" height="220" width="293" alt="图片不见了" title="这是一张图片">
+</body>
+</html>
