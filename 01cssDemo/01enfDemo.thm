@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	body{
+		text-size:14px;
+
+	}
+		.main{
+			width: 801px;
+			/*text-align:center;*/
+			margin:0 auto;
+		}
+		h1{
+			font:24px "微软雅黑";
+			color:#3c3c3c;
+			text-align:center;
+		}
+		.sub-title{
+			text-align:center;
+		}
+		.sub-title-date{
+			color:#ccc;
+		}
+		.sub-title-num{
+			color:#900;
+		}
+		.tet-p{
+			text-indent:2em;
+		}
+		.idea-link{
+			color:#09f;
+			text-decoration:none;
+		}
+
+	</style>
+</head>
+<body>
+<div class="main">
+	<h1>广州餐厅设888元最低消费被罚 万庆良曾出入</h1>
+	<p class="sub-title"><span class="sub-title-date">分享 898评论2016年12月07日15:21</span>	<span class="sub-title-num">中国新闻网</span><a href="#">收藏本站</a></p>
+	<hr>
+	<p class="tet-p">云山望景餐厅位于白云山最高峰摩星岭。该餐厅原名“品云座”，曾是原广州市委书记万庆良多次出入的高档会所。2015年，该餐厅被中纪委和央视点名批评后提前结束合同关门结业。经过重新公开招标后，由一家经营桂林米粉的餐饮企业接手经营，转型为大众化餐厅。如今一年半过去了，近日却有市民反映， 这家大众化餐厅包厢内竟设置了888元的最低消费。</p>
+
+	<p class="tet-p">国家商务部和国家发改委2014年颁布的<a href="#" class="idea-link">《餐饮业经营管理办法（试行）》第12条明确规定</a>“禁止餐饮经营者设置最低消费”。6日，记者来到云山 望景餐厅，从餐牌可以发现，该餐厅的菜式已经基本回归平民化，普通分量的桂林米粉26元一碗，最贵菜式是388元的洞庭水鱼焖清远鸡。虽然不是节假日，但 餐厅内食客还是相当多。三位大妈点了一条清蒸鲩鱼、一例鱼香茄子煲、一碟干炒牛河、三碗米饭，算上茶位一共199元。她们坦言，与市内一般食肆相比，</p>
+
+	<p class="tet-p">这里 的价钱还是稍微偏贵，但想到在山上能边吃边欣赏美景，从性价比来说还能接受。</p>
+
+	<p class="tet-p">记者留意到，该餐厅有4个包间，其中两个可以透过落地玻璃鸟瞰广州美景。该餐厅经理姚先生承认，最近一两个月，这4	个包间确实设置了888元的 最低消费，虽然知道这不符合规定，但也有难言之隐，“近段时间整个餐厅生意有所好转，吃饭订座的人也增多了，但有一些客人往往只点一壶茶，就在包厢里坐一 整天，所以无奈之下才想出‘低消’这个方法”。</p>
+</div>
+</body>
+</html>

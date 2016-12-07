@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类案例</title>
+	<style>
+	/*LoVe HAte 原则*/
+		a:link{
+			color:red;
+		}
+		a:visited{
+			color:purple;
+		}
+		a:hover{
+			color:white;
+		}
+		a:active{
+			color:yellow;
+		}
+		a:focus{
+			font-size: 20px;
+		}
+.textName:focus{
+	background-color: yellow;
+}
+.article-tex:first-line{
+	color:red;
+}.article-tex:first-letter{
+	font-size:20px;
+}
+/*第一个孩子是span标签的元素*/
+span:first-child{
+	color:yellow;
+}
+.wrap:before, .wrap:after{
+	content:"---";
+	display:block;/*当前伪元素转换为块级元素*/
+}
+.textset{
+	background-color:silver;
+	/*font-size:20px;
+	font-weight:700;
+	font-family:"黑体";*/
+	font: 700 20px "黑体";
+
+	display:block;
+	width: 500px;
+	height: 50px;
+/*设置行高，控制文本 垂直方向居中*/
+	line-height:50px;
+	/*控制文本水平方向居中*/
+	text-align:center;
+
+/*文字加空格后*/
+	/*word-spacing:30px;*/
+	letter-spacing:30px;
+	text-decoration:none;
+
+
+}
+	</style>
+}
+}
+}
+}
+
+</head>
+<body>
+<a href="#"></a>
+<a href="http://www.baudu.com">百度</a>
+<a href="http://www.sina.com">新浪</a>
+<a href="http://www.jd.com">京东</a>
+<a href="http://www.taobao.com">淘宝</a>
+<br>
+	<input type="text" class="textName">
+	<p class="article-tex">近日，《科技日报》刊文称，自空军司令员马晓天公开表示中国正在发展新一代远程轰炸机后，“传说”中的“轰-20”得到确认，这款“重器”引起各界关注。谈到“轰-20”何时能闪亮登场，军事专家尹卓表示，我国现在研制战略轰炸机正是时候，借助丰富的技术储备，研制周期可能会更短一些。</p>
+	<div>
+		<span>我是第一个儿子</span>
+		<span>我是第二个儿子</span>
+		<span>我是第三个儿子</span>
+	</div>
+	<p>
+		<span>我是第一个span</span>
+		<span>我是第二个span</span>
+		<span>我是第三个span</span>
+	</p>
+	
+
+	<div>
+		<hr>
+	</div>
+
+	<div class="wrap">
+		我是div
+	</div>
+
+	<div>
+		<hr>
+	</div>
+	<a href="#" class="textset">按 钮</a>
+</body>
+</html>
