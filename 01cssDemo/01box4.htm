@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS外边距</title>
+	<style>
+	*{
+		padding:0;
+		margin:0;
+	}
+		.box1, .box2, .box3{
+			border: 10px solid red;
+			height: 100px;
+		}
+		.box2{
+			border-color: blue;
+		/*margin-top:10px;
+		margin-bottom:10px;
+		margin-left:10px;
+		*/
+		/*margin: 10px 0 20px 30px;*/
+		/*上下10px  左右20px*/
+		margin:10px 20px;
+	}
+	.box4{
+		width: 880px;
+		height: 100px;
+		background-color:pink;
+		margin:0 auto;/*可以让div水平居中*/
+	}
+	</style>
+</head>
+<body>
+	<!-- .box$*3 -->
+	<div class="box1">1</div>
+	<div class="box2">2</div>
+	<div class="box3">3</div>
+	<div class="box4">4</div>
+</body>
+</html>
