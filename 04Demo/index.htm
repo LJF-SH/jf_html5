@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Document</title>
+	<script>
+		var num=10;
+		//函数是一种数据类型 Function
+		var myFun=function(){
+			console.log('hello');
+		};
+
+		console.log(typeof myFun);
+		//	函数可以做作为另一个函数的参数
+		//秋两个数的数学运算结果
+		function getResult(a,b,fn){
+			fn(a,b);
+		}
+		var result=getResult(5,6,function(a,b){
+			console.log(a+b);
+		});
+	</script>
+<body>
+	
+</body>
+</html>
